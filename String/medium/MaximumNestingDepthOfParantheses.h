@@ -1,0 +1,14 @@
+//
+// Created by Aldrin on 08-01-2024.
+//
+
+#ifndef DOOCS_MAXIMUMNESTINGDEPTHOFPARANTHESES_H
+#define DOOCS_MAXIMUMNESTINGDEPTHOFPARANTHESES_H
+
+
+class MaximumNestingDepthOfParantheses {
+
+};
+
+
+#endif //DOOCS_MAXIMUMNESTINGDEPTHOFPARANTHESES_H
