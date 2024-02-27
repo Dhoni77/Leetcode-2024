@@ -2,7 +2,7 @@
 // Created by Aldrin on 13-01-2024.
 //
 
-#include "MinimumNumberOfStepsToMakeTwoStringsPalindrome.h"
+#include "MinimumNumberOfStepsToMakeTwoStringsAnagram.h"
 
 int main() {
     MinimumNumberOfStepsToMakeTwoStringsPalindrome mnp;
