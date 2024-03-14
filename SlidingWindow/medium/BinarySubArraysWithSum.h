@@ -29,12 +29,14 @@ public:
      * **/
     //------------------------------------------------------------------------------------------------------------------------------------------------------
     /**
+     *https://www.youtube.com/watch?v=ZZ5bOSRxAqM
+     * Number of SubArrays with sum == goal is (no of subarrays with sum <= goal - no of subarrays with sum < goal)
      *  int helper(vector<int>& nums, int goal){
         int n = nums.size(), count = 0, i = 0, j = 0, sum = 0;
         while(j < n){
             sum += nums[j];
             while(i <= j && sum > goal)
-                sum -= nums[i++];
+                sum -= nums[i++]; // compress the array
             count += j - i + 1;
             j++;
         }
